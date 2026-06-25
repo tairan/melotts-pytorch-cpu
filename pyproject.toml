@@ -13,6 +13,10 @@ dependencies = [
     "melotts @ git+https://github.com/myshell-ai/MeloTTS.git",
 ]
 
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+name = "tsinghua"
+
 [tool.uv]
 exclude-dependencies = [
     "unidic",
